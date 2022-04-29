@@ -10,6 +10,8 @@ public class Main {
 
 		BufferedReader reader;
 		String input;
+		
+		System.out.println("inizia il gioco...");
 		while (true) {
 			try {
 				System.out.println("inserire un input: ");
