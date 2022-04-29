@@ -14,7 +14,7 @@ public class Main {
 		System.out.println("inizia il gioco...");
 		while (true) {
 			try {
-				System.out.println("inserire un input: ");
+				System.out.print(">>> ");
 				reader = new BufferedReader(new InputStreamReader(System.in));
 				input = reader.readLine();
 			} catch (Exception e) {
